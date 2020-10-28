@@ -1,0 +1,6 @@
+cacheable: false
+type: inline
+markup: 
+- [{phrase: payment_link, url: "__PAYMENT_LINK__"}]
+- [{phrase: verify_payment, callback_data: "stripe_store,verify_payment,__PAYMENT_ID__"}]
+- [{phrase: abort, callback_data: "stripe_store,abort,__PAYMENT_ID__"}]

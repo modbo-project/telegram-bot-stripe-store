@@ -1,0 +1,10 @@
+payment_unverified: "The bot was unable to verify the payment. Check the process or try verifying again later."
+
+payment_verified: "Your payment has been verified!"
+
+payment_aborted: "Operation has been canceled.
+
+
+To open the menu again, type /start"
+
+payment_loading: "Your payment screen is being loaded..."
